@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.description = %q{Rake helper for zipping/unzipping project files.}
   s.email = %q{alexander.shvets@gmail.com}
 
-  s.files = ["CHANGES", "zipit.gemspec", "Rakefile", "README", "lib/zip_it.rb", "bin/zipit"]
+  s.files = ["CHANGES", "zipit.gemspec", "Rakefile", "README", "bin/zipit", 'bin/zipit.bat']
 
   s.has_rdoc = true
   s.homepage = %q{http://github.com/shvets/zipit}
@@ -26,6 +26,6 @@ Gem::Specification.new do |s|
 
   s.platform = Gem::Platform::RUBY
   s.requirements = ["none"]
-  s.executables = ['zipit', 't']
+  s.executables = ['zipit']
   s.bindir = "bin"
 end
