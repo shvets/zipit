@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{zipit}
-  s.version = "0.1.0"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
  
@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.description = %q{Rake helper for zipping/unzipping project files.}
   s.email = %q{alexander.shvets@gmail.com}
 
-  s.files = ["CHANGES", "zipit.gemspec", "Rakefile", "README", "lib/zip_it.rb"]
+  s.files = ["CHANGES", "zipit.gemspec", "Rakefile", "README", "lib/zip_it.rb", "bin/zipit"]
 
   s.has_rdoc = true
   s.homepage = %q{http://github.com/shvets/zipit}
@@ -26,4 +26,6 @@ Gem::Specification.new do |s|
 
   s.platform = Gem::Platform::RUBY
   s.requirements = ["none"]
+  s.executables = ['zipit', 't']
+  s.bindir = "bin"
 end
