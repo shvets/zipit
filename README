@@ -1,0 +1,14 @@
+= Zipit Gem -- rake helper for zipping/unzipping project files
+
+= Installing Zipit
+
+== Installing the Gem
+    $ sudo gem sources -a http://gemcutter.com
+    $ sudo gem install zipit
+
+== Usage
+
+task :zip do
+  zip :archive => "my_project.zip", :dir => "."
+end
+
