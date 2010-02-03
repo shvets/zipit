@@ -1,10 +1,10 @@
-require 'rake'
+# Rakefile for zipit
 
 require "lib/zip_it"
-  
+ 
 task :default => :zip
 
 task :zip do
-  zip :archive => "test2.zip", :dir => "."
+  zip :archive => "zipit.zip", :dir => "."
 end
 

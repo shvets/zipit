@@ -3,7 +3,7 @@
 = Installing Zipit
 
 == Installing the Gem
-    $ sudo gem sources -a http://gemcutter.com
+    $ sudo gem sources -a http://gemcutter.org
     $ sudo gem install zipit
 
 == Usage
