@@ -1,1 +1,1 @@
-require 'zip_it'
+require 'zipit_helper'
