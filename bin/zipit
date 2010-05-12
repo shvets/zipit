@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require 'rubygems' unless RUBY_VERSION =~ /1.9.*/
+
+#!/usr/bin/env ruby
+
+$:.unshift(File::join(File::dirname(File::dirname(__FILE__)), "lib"))
+
+require 'zipit_helper'
+
+zip ARGV
+
