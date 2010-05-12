@@ -47,10 +47,18 @@ class ZipitHelper
   end   
 end
 
+def zip_cmd_line params
+  zipit = ZipitHelper.new
+
+  zipit.create_zip_file( 
+    :file_name => params[0], :dir => params[1],
+    :global_excludes => ['.svn'], :excludes => ["*.zip"])
+end  
+
 def zip params
   zipit = ZipitHelper.new
-  
+
   zipit.create_zip_file( 
     :file_name => params[:archive], :dir => params[:dir],
     :global_excludes => ['.svn'], :excludes => ["*.zip"])
-end  
+end

@@ -8,5 +8,5 @@ $:.unshift(File::join(File::dirname(File::dirname(__FILE__)), "lib"))
 
 require 'zipit_helper'
 
-zip ARGV
+zip_cmd_line ARGV
 

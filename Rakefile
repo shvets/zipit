@@ -30,7 +30,7 @@ end
 
 desc "Run gem code locally"
 task :"run:gem" do
-  command = "bin/zipit $1 $2"
+  command = "bin/zipit a.zip ."
   puts ruby("#{command}")
 end
 
