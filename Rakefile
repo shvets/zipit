@@ -1,6 +1,6 @@
 # Rakefile for zipit
 
-require "lib/zipit_helper"
+require "lib/zipit"
  
 task :default => :zip
 
@@ -17,7 +17,7 @@ begin
     gemspec.email = "alexander.shvets@gmail.com"
     gemspec.homepage = "http://github.com/shvets/zipit"
     gemspec.authors = ["Alexander Shvets"]
-    gemspec.files = FileList["CHANGES", "zipit.gemspec", "Rakefile", "README", "VERSION", "lib/**/*"]
+    gemspec.files = FileList["CHANGES", "zipit.gemspec", "Rakefile", "init.rb", "README", "VERSION", "lib/**/*", "bin/**/*"]
     gemspec.add_dependency "rubyzip", ">= 0.9.4"
     gemspec.executables = ['zipit']
     gemspec.requirements = ["none"]
