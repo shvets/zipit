@@ -50,7 +50,7 @@ end
 def zip_cmd_line params
   zipit = Zipit.new
 
-  archive = params[0].nil? ? "default.zip" : params[0]
+  archive = params[0].nil? ? "#{File.basename(Dir.pwd)}.zip" : params[0]
   dir = params[1].nil? ? "." : params[1]
 
   zipit.create_zip_file( 
@@ -61,7 +61,7 @@ end
 def zip params
   zipit = Zipit.new
   
-  archive = params[:archive].nil? ? "default.zip" : params[:archive]
+  archive = params[:archive].nil? ? "#{File.basename(Dir.pwd)}.zip" : params[:archive]
   dir = params[:dir].nil? ? "." : params[:dir]
 
   zipit.create_zip_file( 
