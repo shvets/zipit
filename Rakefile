@@ -34,3 +34,24 @@ task :"run:gem" do
   puts ruby("#{command}")
 end
 
+desc "Release the gem"
+task :"release:gem" do
+  %x(
+      rake gemspec
+      rake build
+      rake install
+      git add .  
+  )  
+  puts "Commit message:"  
+  message = STDIN.gets
+
+  version = "#{File.open(File::dirname(__FILE__) + "/VERSION").readlines().first}"
+
+  %x(
+    git commit -m "#{message}"
+    
+    git push origin master
+
+    gem push pkg/zipit-#{version}.gem      
+  )
+end
