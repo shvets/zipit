@@ -8,3 +8,7 @@
 == Version 0.2.0
 
 * Adding binary zipit.
+
+== Version 0.3.6
+
+* Integration with zip_dsl
