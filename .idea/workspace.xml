@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="572f94f6-d8ba-4646-8d70-0527fbc83126" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/cssxfire.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/zipit/version.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/zipit/zipit.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/VERSION" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deploy_gem.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/zipit.iml" afterPath="$PROJECT_DIR$/.idea/zipit.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.rvmrc" afterPath="$PROJECT_DIR$/.rvmrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CHANGES" afterPath="$PROJECT_DIR$/CHANGES" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/zipit" afterPath="$PROJECT_DIR$/bin/zipit" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/zipit.rb" afterPath="$PROJECT_DIR$/lib/zipit.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/zipit_spec.rb" afterPath="$PROJECT_DIR$/spec/zipit_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zipit.gemspec.erb" afterPath="$PROJECT_DIR$/zipit.gemspec.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zipit.gemspec" afterPath="$PROJECT_DIR$/zipit.gemspec" />
     </list>
     <ignored path="zipit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,10 +28,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Rakefile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Rakefile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="7" selection-start="212" selection-end="212" vertical-scroll-proportion="0.2588997">
+            <state line="6" column="14" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zipit.gemspec" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zipit.gemspec">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zipit.gemspec.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zipit.gemspec.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="142" selection-start="422" selection-end="422" vertical-scroll-proportion="-5.76">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zipit.bat" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bin/zipit.bat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -72,8 +87,8 @@
         <option value="$PROJECT_DIR$/lib/zipit/zipit.rb" />
         <option value="$PROJECT_DIR$/CHANGES" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/zipit.gemspec.erb" />
         <option value="$PROJECT_DIR$/Rakefile" />
+        <option value="$PROJECT_DIR$/zipit.gemspec.erb" />
       </list>
     </option>
   </component>
@@ -564,13 +579,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spec/zipit_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="24" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/zipit/zipit.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="144" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.0">
@@ -597,11 +605,6 @@
         <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/zipit">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="9" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/zipit/version.rb">
@@ -646,18 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zipit.gemspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zipit.gemspec.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="802" selection-end="802" vertical-scroll-proportion="-13.44">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -667,7 +658,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="7" selection-start="212" selection-end="212" vertical-scroll-proportion="0.2588997">
+        <state line="6" column="14" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipit.gemspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipit.gemspec.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="142" selection-start="422" selection-end="422" vertical-scroll-proportion="-5.76">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/zipit">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="9" selection-start="169" selection-end="169" vertical-scroll-proportion="0.20711975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/zipit.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

@@ -4,7 +4,7 @@
 $LOAD_PATH.unshift File.expand_path("lib", File.dirname(__FILE__))
 
 require "rspec/core/rake_task"
-require "zip_dsl/version"
+require "zipit/version"
 require "gemspec_deps_gen/gemspec_deps_gen"
 
 def version
@@ -32,7 +32,7 @@ RSpec::Core::RakeTask.new do |task|
   task.verbose = false
 end
 
-require "lib/zipit"
+require "zipit"
 
 task :default => :zip
 
