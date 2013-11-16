@@ -1,1 +1,1 @@
-require "zipit"
+require "zipit/zipit"

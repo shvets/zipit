@@ -1,3 +1,3 @@
-module Zipit
-  VERSION = "0.3.6"
+class Zipit
+  VERSION = "0.3.7"
 end

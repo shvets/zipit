@@ -1,7 +1,7 @@
 #require 'zip/zip'
 
-require 'zip_dsl/zip_dsl'
-require 'directory_scanner'
+require 'zip_dsl'
+require 'file_utils/directory_scanner'
 
 class Zipit
   attr_reader :global_excludes, :includes, :excludes
@@ -22,9 +22,9 @@ class Zipit
 
   def create_zip_file dir, file_name, includes, excludes
     scanner = DirectoryScanner.new
-    files = scanner.scan dir, includes, excludes
+    files = scanner.scan dir, :includes => includes.join(","), :excludes => excludes.join(",")
 
-    builder = Zip::DSL.new file_name
+    builder = ZipDSL.new file_name, "."
 
     builder.build do
       files.each do |name|

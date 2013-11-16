@@ -6,17 +6,17 @@ describe Zipit do
   context "create zip archive from the dir" do
 
     it "should create new archive" do
-      subject.zip :dir => "config", :archive => "config.zip"
+      subject.zip :dir => "../lib", :archive => "../lib.zip"
 
-      reader = Zip::Reader.new "config.zip"
-      reader.list.should include("config/application.rb")
+      reader = ZipReader.new "../lib.zip"
+      reader.list.should include("zipit/version.rb")
     end
 
     it "should not include test2" do
-      subject.zip :dir => "config", :archive => "config.zip", :excludes => ["config/environments"]
+      subject.zip :dir => "../lib", :archive => "../lib.zip", :excludes => ["zipit/zipit.rb"]
 
-      reader = Zip::Reader.new "config.zip"
-      reader.list.should_not include("config/environments/test.rb")
+      reader = ZipReader.new "../lib.zip"
+      reader.list.should_not include("zipit/zipit.rb")
     end
   end
 end
